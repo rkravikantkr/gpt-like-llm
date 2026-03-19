@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda
+.conda/
+*.conda
+
+# Logs
+*.log
+
+# Environment variables (IMPORTANT)
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# PyTorch / ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Data files (optional but recommended)
+data/
+datasets/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Mac specific
+.AppleDouble
+.LSOverride
